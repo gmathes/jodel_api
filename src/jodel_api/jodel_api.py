@@ -21,7 +21,8 @@ s = requests.Session()
 
 class JodelAccount:
     post_colors = ['9EC41C', 'FF9908', 'DD5F5F', '8ABDB0', '06A3CB', 'FFBA00']
-
+	
+	#need to confirm keys
     api_url = "https://api.go-tellm.com/api{}"
     client_id = '81e8a76e-1e02-4d17-9ba0-8a7020261b26'
     secret = 'GnAXvETHFDbDfhngjDYEkszdqZowDpWsWuCectMJ'.encode('ascii')
